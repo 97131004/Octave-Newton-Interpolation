@@ -15,7 +15,7 @@ To run the script in Octave CLI, use: ``` newtoninterpolation ```
 ## Requirements for correct execution
 
 - Input function must be a 2D function
-- Input function must use x as control variable
+- Input function must use ```x``` as control variable
 - Input matrix must only have points where every x-value (abscissa) is assigned to exactly one y-value (ordinate)
 - Input matrix does not include identical points
 
@@ -27,9 +27,9 @@ To run the script in Octave CLI, use: ``` newtoninterpolation ```
 
 ## Output
 
-- Iteration steps with all calculated values from the tree structure (delta^i y / delta^i x)
-- All coefficients Ai
-- Interpolated function f2
+- Iteration steps with all calculated values from the tree structure (```delta^i y / delta^i x```)
+- All coefficients ```Ai```
+- Interpolated function ```f2```
 - Absolute and relative error by comparing test values from interpolated and source function
 - Plotting interpolated and source functions, test values and calculated errors
 
@@ -40,8 +40,6 @@ To run the script in Octave CLI, use: ``` newtoninterpolation ```
 - Control + mouse wheel = Zoom in/out
 - Right mouse button = Draw enlargement rectangle
 - Middle mouse button = Set point (shows its coordinates)
-
-Please make sure to update tests as appropriate.
 
 ## License
 MIT
