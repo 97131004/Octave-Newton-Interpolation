@@ -1,6 +1,6 @@
 # Octave Newton Interpolation
 
-Script to perform and visualize a Newton Interpolation for a number of points in 2D space in GNU Octave. Also, calculates an absolute and relative error between the interpolated and source functions for a certain test value on the x-axis.
+Script to perform and visualize a Newton Interpolation for a number of points in 2D space in GNU Octave. Also calculates an absolute and relative error between the interpolated and source functions for a certain test value on x-axis.
 
 ![screenshot](https://github.com/notpavlov/Octave-Newton-Interpolation/blob/main/screenshot.png?raw=true)
 
